@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+
+body {
+    background-color: #bed3c3;
+    text-align: left;
+    color: #212e53;
+    font-family: "Pangolin", Courier New;
+    padding-top: 75px;
+}
+
+a {
+    color: #212e53;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ce6a6b;
+}
+
+/*============*/
+/* NAVIGATION */
+/*============*/
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #4a919e;
+    box-shadow: 0px 4px 4px #1e222e;
+}
+
+.navlist {
+    display: flex;
+    margin-right: 2rem;
+}
+
+.navlist a {
+    display: block;
+    color: #212e53;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.navlist a:hover {
+    color: #ce6a6b;
+}
+
+/*===========*/
+/*   INTRO   */
+/*===========*/
+
+#intro {
+    text-align: center;
+    padding: 60px;
+}
+
+#welcome {
+    font-size: 150px;
+    text-align: center;
+    padding: 100px;
+    padding-bottom: 10px;
+    font-family: "Coming Soon";
+}
+
+#mainbod {
+    padding: 20px;
+    justify-content: flex-end;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/*==========*/
+/* PROJECTS */
+/*==========*/
+
+.time{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ebaca2;
+}
+
+.image {
+    float: left;
+    width: 20%;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.content {
+    float: left;
+    width: 50%;
+    padding-left: 40px;
+}
+
+.para {
+    color: #212e53;
+}
+
+.Project {
+    padding: 50px;
+}
+
+
+/*===========*/
+/*  CLASSES  */
+/*===========*/
+
+.headings {
+    text-align: left;
+    font-family: "Coming Soon", Courier New;
+    font-size: 50px;
+}
+
+.project-headings {
+    text-align: left;
+    font-family: "Coming Soon", Courier New;
+    font-size: 30px;
+}
+
+.para {
+    font-size: 20px;
+}
+
+/*==========*/
+/*  FOOTER  */
+/*==========*/
+#footer {
+    background: #4a919e;
+    width: 100%;
+    flex-direction: column;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
