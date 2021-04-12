@@ -10,6 +10,8 @@ body {
     padding-top: 75px;
 }
 
+/* links */
+
 a {
     color: #212e53;
     text-decoration: none;
@@ -19,9 +21,7 @@ a:hover {
     color: #ce6a6b;
 }
 
-/*============*/
-/* NAVIGATION */
-/*============*/
+/* navigation bar */
 
 .navbar {
     display: flex;
@@ -51,9 +51,7 @@ a:hover {
     color: #ce6a6b;
 }
 
-/*===========*/
-/*   INTRO   */
-/*===========*/
+/* intro section */
 
 #intro {
     text-align: center;
@@ -76,9 +74,17 @@ a:hover {
     width: 100%;
 }
 
-/*==========*/
-/* PROJECTS */
-/*==========*/
+.headings {
+    text-align: left;
+    font-family: "Coming Soon", Courier New;
+    font-size: 50px;
+}
+
+.para {
+    font-size: 20px;
+}
+
+/* projects section */
 
 .time{
     font-size: 16px;
@@ -115,30 +121,14 @@ a:hover {
     padding: 50px;
 }
 
-
-/*===========*/
-/*  CLASSES  */
-/*===========*/
-
-.headings {
-    text-align: left;
-    font-family: "Coming Soon", Courier New;
-    font-size: 50px;
-}
-
 .project-headings {
     text-align: left;
     font-family: "Coming Soon", Courier New;
     font-size: 30px;
 }
 
-.para {
-    font-size: 20px;
-}
+/* footer */
 
-/*==========*/
-/*  FOOTER  */
-/*==========*/
 #footer {
     background: #4a919e;
     width: 100%;
