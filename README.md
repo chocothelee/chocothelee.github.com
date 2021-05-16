@@ -1,2 +1,4 @@
 # theotherjimin.github.com
-My personal portfolio documenting projects that I had worked on. Created using HTML, CSS and a bit of JavaScript.
+This is my personal portfolio documenting different projects that I had worked on. Created using HTML and CSS, hoping to add JavaScript in later.
+
+***Still in progress***
