@@ -3,4 +3,8 @@ This is my personal portfolio documenting different projects that I had worked o
 
 (Created using HTML and CSS, hoping to add JavaScript in later.)
 
-***Still in progress***
+To-do list:
+- fix footer
+- make the website look nicer when on different devices
+- finish adding links & fix icon pictures
+- add more interactiveness (w/ javascript)
