@@ -4,7 +4,9 @@ This is my personal portfolio documenting different projects that I had worked o
 (Created using HTML and CSS, hoping to add JavaScript in later.)
 
 <h2>To-do list:</h2>
-- fix footer
-- make the website look nicer when on different devices
-- finish adding links & fix icon pictures
-- add more interactiveness (w/ javascript)
+<ul>
+  <li>fix footer</li>
+  <li>make the website look nicer when on different devices</li>
+  <li>finish adding links & fix icon pictures</li>
+  <li>add more interactiveness (w/ javascript)</li>
+</ul>
