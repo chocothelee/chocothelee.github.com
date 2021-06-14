@@ -34,12 +34,13 @@ a:hover {
     box-shadow: 0px 4px 4px #1e222e;
 }
 
-.navlist {
-    display: flex;
-    margin-right: 2rem;
+.list {
+  display: flex;
+  margin-right: 2rem;
+  justify-content: center;
 }
 
-.navlist a {
+.list a {
     display: block;
     color: #212e53;
     text-decoration: none;
@@ -47,7 +48,7 @@ a:hover {
     padding: 20px;
 }
 
-.navlist a:hover {
+.list a:hover {
     color: #ce6a6b;
 }
 
