@@ -5,8 +5,6 @@ This is my personal portfolio documenting different projects that I had worked o
 
 <h2>To-do list:</h2>
 <ul>
-  <li>fix footer</li>
   <li>make the website look nicer when on different devices</li>
-  <li>finish adding links & fix icon pictures</li>
   <li>add more interactiveness (w/ javascript)</li>
 </ul>
