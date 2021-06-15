@@ -8,15 +8,13 @@
   --dark_bg: #2D4059;
 }
 
-body {
-    background-color: white;
-    color: var(--text);
-    text-align: left;
-    font-family: "Pangolin", Courier New;
-    padding-top: 75px;
-}
 
-/* links */
+body {
+  background-color: white;
+  color: var(--text);
+  font-family: "Pangolin", Courier New;
+  margin: 0px;
+}
 
 a {
   color: var(--headings);
@@ -57,7 +55,6 @@ a:hover {
 
 .list a:hover {
     color: var(--text);
-    
 }
 
 /* welcome/home */
@@ -67,30 +64,14 @@ a:hover {
     padding: 60px;
 }
 
-#welcome {
-    font-size: 150px;
-    text-align: center;
-    padding: 100px;
-    padding-bottom: 10px;
-    font-family: "Coming Soon";
-}
-
-#mainbod {
-    padding: 20px;
-    justify-content: flex-end;
-    top: 0;
-    left: 0;
-    width: 100%;
+home > h1 {
+  font-size: 150px;
 }
 
 .headings {
     text-align: left;
     font-family: "Coming Soon", Courier New;
     font-size: 50px;
-}
-
-.para {
-    font-size: 20px;
 }
 
 /* About me */
@@ -113,51 +94,11 @@ a:hover {
 
 /* projects section */
 
-.time{
-    font-size: 16px;
-    font-weight: 400;
-    color: #ebaca2;
-}
-
-.image {
-    float: left;
-    width: 20%;
-    padding: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both
-}
-
-.content {
-    float: left;
-    width: 50%;
-    padding-left: 40px;
-}
-
-.para {
-    color: #212e53;
-}
-
-.Project {
-    padding: 50px;
-}
-
-.project-headings {
-    text-align: left;
-    font-family: "Coming Soon", Courier New;
-    font-size: 30px;
-}
-
-.links {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+#projects {
+  text-align: center;
+  padding: 10% 0px 10% 0px;
+  background: var(--light_bg);
+  font-size: 30px;
 }
 
 /* contacts */
