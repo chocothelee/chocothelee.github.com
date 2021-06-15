@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet');
 @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
 
+:root {
+  --headings: #EA5455;
+  --text: #D49A89;
+  --light_bg: #F7F2E7;
+  --dark_bg: #2D4059;
+}
 
 body {
-    background-color: #bed3c3;
+    background-color: white;
+    color: var(--text);
     text-align: left;
-    color: #212e53;
     font-family: "Pangolin", Courier New;
     padding-top: 75px;
 }
@@ -13,12 +19,13 @@ body {
 /* links */
 
 a {
-    color: #212e53;
-    text-decoration: none;
+  color: var(--headings);
+  text-decoration: none;
 }
 
 a:hover {
-    color: #ce6a6b;
+  color: var(--text);
+  text-decoration: none;
 }
 
 /* navigation bar */
@@ -30,8 +37,8 @@ a:hover {
     top: 0;
     left: 0;
     width: 100%;
-    background: #4a919e;
-    box-shadow: 0px 2px 1px #4a919e;
+    background: var(--dark_bg);
+    box-shadow: 0px 2px 1px var(--dark_bg);
 }
 
 .list {
@@ -42,14 +49,15 @@ a:hover {
 
 .list a {
     display: block;
-    color: #212e53;
+    color: var(--headings);
     text-decoration: none;
     font-size: 20px;
     padding: 20px;
 }
 
 .list a:hover {
-    color: #ce6a6b;
+    color: var(--text);
+    
 }
 
 /* intro */
@@ -137,12 +145,13 @@ a:hover {
 /* contacts */
 
 #contacts {
-  background: #4a919e;
-  width: 100%;
-  font-size: 30px;
-  text-align: center;
-  align-items: center;
-  padding: 20px;
-  left: 0;
-  right: 0;
+    background: var(--dark_bg);
+    color: var(--text);
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    left: 0;
+    right: 0;
 }
