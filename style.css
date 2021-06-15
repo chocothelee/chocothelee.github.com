@@ -60,9 +60,9 @@ a:hover {
     
 }
 
-/* intro */
+/* welcome/home */
 
-#intro {
+#home {
     text-align: center;
     padding: 60px;
 }
@@ -91,6 +91,24 @@ a:hover {
 
 .para {
     font-size: 20px;
+}
+
+/* About me */
+#about {
+  text-align: center;
+  padding: 10% 0px 10% 0px;
+  background: var(--dark_bg);
+}
+
+#about > img {
+  border-radius: 50%;
+  height: 15%;
+  width: 15%;
+}
+
+#about > p {
+  font-size: 25px;
+  padding: 25px 25%;
 }
 
 /* projects section */
