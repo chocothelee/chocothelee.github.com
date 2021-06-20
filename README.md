@@ -7,4 +7,7 @@ This is my personal portfolio documenting different projects that I had worked o
 <ul>
   <li>make the website look nicer when on different devices</li>
   <li>add more interactiveness (w/ javascript)</li>
+  <ul>
+    <li>changing title sequence so it says hello/welcome in different languages</li>
+  </ul>
 </ul>
