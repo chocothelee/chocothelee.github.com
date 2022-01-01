@@ -52,7 +52,7 @@ h2 {
 }
 
 /* index.html */
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+.carousel-inner > .item > img {
   width: 100%;
 }
 
