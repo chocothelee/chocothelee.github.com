@@ -51,16 +51,12 @@ h2 {
   font-size: xx-large;
 }
 
-/* about-me */
-.pfp {
-  border-radius: 50%;
-  height: 50%;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+/* index.html */
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 100%;
 }
 
-/* projects */
+/* projects.html */
 .projectblock {
   background-color: #F7F2E7;
 }
