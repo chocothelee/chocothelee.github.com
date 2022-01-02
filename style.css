@@ -41,6 +41,10 @@ h2 {
   color: #F7F2E7;
 }
 
+i {
+  color: #2d4059;
+}
+
 /* navbar */
 .navbar {
   font-size: large;
@@ -59,6 +63,10 @@ h2 {
 /* projects.html */
 .projectblock {
   background-color: #F7F2E7;
+}
+
+.row {
+  text-align: center;
 }
 
 /* contacts */
