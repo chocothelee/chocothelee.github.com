@@ -1,80 +1,57 @@
+:root {
+  --light: #eeeeee;
+  --dark: #212121;
+  --pink: #ff8484;
+}
+
 body {
-  background-color: #2d4059;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "American Typewriter";
+  background-color: var(--dark);
+}
+
+button {
+  background-color: var(--dark);
+  color: var(--light);
+  border-color: var(--light);
+  margin: 0 5px 5px 0;
 }
 
 a {
-  color: #F7F2E7;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: larger;
-  text-decoration: none;
+  color: var(--light);
 }
 
 a:hover {
-  color: #EA5455;
-  text-decoration: none;
+  color: var(--dark);
 }
 
-#name:hover {
-  color: #EA5455;
-}
-
-h3 {
-  color: #D49A89;
-  text-align: center;
-}
-
-h3:hover {
-  color: #EA5455;
+h3, h2, i {
+  color: var(--light);
 }
 
 p {
-  color: #2d4059;
+  color: var(--pink);
+}
+
+.center {
   text-align: center;
 }
 
-h1 {
-  color: #EA5455;
+.description {
+  border-color: var(--light);
 }
 
-h2 {
-  color: #F7F2E7;
-}
-
-i {
-  color: #2d4059;
-}
-
-/* navbar */
-.navbar {
-  font-size: large;
-  background-color: #2d4059;
-}
-
-.navbar-brand {
-  font-size: xx-large;
-}
-
-/* index.html */
-.carousel-inner > .item > img {
-  width: 100%;
-}
-
-/* projects.html */
-.projectblock {
-  background-color: #F7F2E7;
-}
-
-.row {
-  text-align: center;
-}
-
-/* contacts */
-#contacts {
-  background: var(--dark_bg);
-  color: var(--text);
+.list, .contact {
+  padding: 5px;
   font-size: 30px;
-  text-align: center;
-  padding: 10px;
-  margin: 0px;
+}
+
+.icon {
+  font-size: 100px;
+}
+
+#pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }

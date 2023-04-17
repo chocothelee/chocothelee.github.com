@@ -6,83 +6,40 @@
         <meta name="description" content="Jimin Lee's Portfolio">
     
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    
         <script src="https://kit.fontawesome.com/465fdb50d8.js" crossorigin="anonymous"></script>
-    
+
+        <script src="script.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css">
     
-        <title>Jimin Lee's Portfolio</title>
+        <title>Jimin Lee</title>
     </head>
 
     <body>
         <!-- Navigation bar -->
-        <div class="container">
-            <nav class="navbar navbar-fixed-top">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <a href="index.html" class="navbar-brand active" id="name">Jimin Lee</a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="about-me.html">About</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                    </ul>
-                </div>
-            </nav>
+        <div class="container navbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="navigation"><a href="index.html">Home</a></li>
+                <li class="navigation"><a href="projects.html">Projects</a></li>
+                <li class="navigation"><a href="projects.html">Resume</a></li>
+            </ul>
         </div>
-        
-        <!-- Images -->
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img src="images/user.png" alt="1">
-                </div>            
-                
-                <div class="item">
-                    <img src="images/noimage.png" alt="2">
-                </div>
-                
-                <div class="item">
-                    <img src="images/noimage.png" alt="3">
-                </div>
-            </div>
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-        
-        <!-- Welcome/home -->
-        <section id="home">
-            <h1 class="heading">Welcome!</h1>
-            <h3>My name is Jimin, and I am a creator :)</h3>
+
+        <!-- Welcome -->
+        <section class="container center">
+            <img id="pic" src="images/user.png">
+            <h2 class="heading">Jimin Lee</h2>
+            <p>Student, Coder, Writer</p>
         </section>
-        
-        <!-- About me -->
-        <section id="about">
-            <h1 class="heading"> -- About me -- </h1>
-            <p>Hello! I'm a self-taught programmer from S. Korea. I have lived in 5 different countries, and my first language is English. I enjoy making things, whether it be digital or physical. Some of my interests are coding, theatre and astronomy!</p>
-        </section>
-        
+
+        <br><br><hr><br><br>
+
         <!-- Contacts -->
-        <section id="contacts">
-            <h2 class="heading"> Find me on the Internet! </h2>
+        <section class="center" id="contacts">
+            <h2 class="heading center"> Find me on the Internet! </h2>
             <ul class="list">
-                <a href="mailto:jimincodes@gmail.com"><i class="fas fa-envelope"></i> Email</a>
-                <a href="https://www.youtube.com/channel/UCBi29QC9gZBbRUpy_CV93Vw"><i class="fab fa-youtube"></i> Youtube</a>
-                <a href="discord.gg/huny3mFurf"><i class="fab fa-discord"></i> Discord</a>
-                <a href="github.com/jimthejelly"><i class="fab fa-github"></i> Github</a>
-                <a href="https://jimthejelly.itch.io/"><i class="fab fa-itch-io"></i> Itch</a>
+                <i class="fas fa-envelope contact" onclick="redirect('mailto:jimincodes@gmail.com')"></i>
+                <i class="fab fa-youtube contact" onclick="redirect('https://www.youtube.com/channel/UCBi29QC9gZBbRUpy_CV93Vw')"></i>
+                <i class="fab fa-github contact" onclick="redirect('https://www.github.com/jimthejelly')"></i>
             </ul>
         </section>
     </body>

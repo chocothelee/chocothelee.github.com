@@ -7,156 +7,106 @@
         <meta name="description" content="Jimin Lee's Portfolio">
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
         <script src="https://kit.fontawesome.com/465fdb50d8.js" crossorigin="anonymous"></script>
 
+        <script src="script.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css">
 
-        <title>Jimin Lee's Portfolio</title>
+        <title>Projects -- Jimin Lee</title>
     </head>
 
     <body>
         <!-- Navigation bar -->
+        <div class="container navbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="navigation"><a href="index.html">Home</a></li>
+                <li class="navigation"><a href="projects.html">Projects</a></li>
+                <li class="navigation"><a href="projects.html">Resume</a></li>
+            </ul>
+        </div>
+
         <div class="container">
-            <nav class="navbar navbar-fixed-top">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <a href="index.html" class="navbar-brand active" id="name">Jimin Lee</a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="about-me.html">About</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                    </ul>
+            <h2>Coding Projects</h2>
+            <br>
+
+            <div class="row description">
+                <div class="col-sm-4 center">
+                    <i class="fas fa-meteor icon"></i>
                 </div>
-            </nav>
+                <div class="col-sm-8">
+                    <h3>Through the Ages</h3>
+                    <button onclick="redirect('https://github.com/jimthejelly/Through-the-Ages')">Documentation</button>
+                    <p>2023 -- HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row description">
+                <div class="col-sm-4 center">
+                    <i class="fas fa-leaf icon"></i>
+                </div>
+                <div class="col-sm-8">
+                    <h3>Project Leaf</h3>
+                    <button onclick="redirect('https://github.com/jimthejelly/project-leaf')">Documentation</button>
+                    <p>2022 -- HTML, CSS, JavaScript, PHP</p>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-sm-4 center">
+                    <i class="fas fa-birthday-cake icon"></i>
+                </div>
+                <div class="col-sm-8">
+                    <h3>Birthday Button</h3>
+                    <button onclick="redirect('https://github.com/jimthejelly/birthdaybutton')">Documentation</button>
+                    <button onclick="redirect('https://codepen.io/jimthejelly/full/gOgoKNy')">Codepen</button>
+                    <p>2021 -- HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-sm-4 center">
+                    <i class="fas fa-atom icon"></i>
+                </div>
+                <div class="col-sm-8">
+                    <h3>The Hooman System</h3>
+                    <button onclick="redirect('https://jimthejelly.itch.io/scienceproject')">Itch.io</button>
+                    <p>2018 -- MediBang Paint (Art by me), RPG Maker MV</p>
+                </div>
+            </div>
+
+            <br>
+
+            <h2>Other Projects</h2>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-4 center">
+                    <i class="fas fa-paint-brush icon"></i>
+                </div>
+                <div class="col-sm-8">
+                    <h3>I'll Always Remember You -- Animatic</h3>
+                    <button onclick="redirect('https://youtu.be/Ix_yWxMsfcE')">Youtube</button>
+                    <p>2019 -- MediBang Paint, iMovie</p>
+                </div>
+            </div>
         </div>
 
-        <br>
+        <br><br><hr><br><br>
 
-        <div class="container projectblock" id="codingprojects">
-            <br>
-            <h1>Coding Projects</h1>
-            <br>
-            <div class="row">
-                <div class="col-sm-4">
-                    <a href="#">
-                        <i class="fas fa-question-circle fa-10x"></i>
-                        <h3>Untitled Game Project</h3>
-                        <p>More information to come soon!</p>
-                        <p>(Project in collaboration with Sock (co-writer) and Popcorn (artist))</p>
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="#">
-                        <i class="fas fa-rocket fa-10x"></i>
-                        <h3>The Davenirs</h3>
-                        <p>A project intended to explore the inner workings of Game Development. *Unfinished/In Progress*</p>
-                        <p>(Everything by me :D)</p>
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="projectleaf.com">
-                        <i class="fas fa-leaf fa-10x"></i>
-                        <h3>Project Leaf</h3>
-                        <p>A direct link to the Project Leaf webpage!</p>
-                        <p>(Made with HTML, CSS, JavaScript and php; front + back end web development)</p>
-                    </a>
-                </div>
-            </div>
-
-            <br>
-            
-            <div class="row">
-                <div class="col-sm-4">
-                    <a href="https://github.com/jimthejelly/ciphers">
-                        <i class="fas fa-puzzle-piece fa-10x"></i>
-                        <h3>Cipher Encoder/Decoders</h3>
-                        <p>Different cipher encoders/decoders! (in development)</p>
-                        <p>(Made with Java)</p>
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="https://codepen.io/jimthejelly/full/gOgoKNy">
-                        <i class="fas fa-birthday-cake fa-10x"></i>
-                        <h3>Birthday Button</h3>
-                        <p>Codepen button challenge submission (cpc-click-button) - JavaScript practice</p>
-                        <p>(Made with HTML, CSS + JavaScript)</p>
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="https://codepen.io/jimthejelly/full/ZEbmazp">
-                        <i class="fas fa-desktop fa-10x"></i>
-                        <h3>Tribute Page: Dr Alan Turing</h3>
-                        <p>Tribute page for Dr Alan Turing - HTML practice</p>
-                        <p>(Made with HTML + CSS)</p>
-                    </a>
-                </div>
-            </div>
-
-            <br>
-
-            <div class="row">
-                <div class="col-sm-4">
-                    <a href="https://jimthejelly.itch.io/scienceproject">
-                        <i class="fas fa-atom fa-10x"></i>
-                        <h3>The Hooman System</h3>
-                        <p>A game made for my final Science project about the Human respiratory and circulatory systems.</p>
-                        <p>(Art, code and storyline by me; everything else is really RPG Maker MV)</p>
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="https://jimthejelly.itch.io/">
-                        <i class="fas fa-gamepad fa-10x"></i>
-                        <h3>Other Game Dev Projects</h3>
-                        <p>My Itch.io page!</p>
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="https://github.com/jimthejelly">
-                        <i class="fas fa-file-code fa-10x"></i>
-                        <h3>Other Coding Projects!</h3>
-                        <p>My Github page!</p>
-                    </a>
-                </div>
-            </div>
-            <br>
-        </div>
-
-        <br>
-
-        <div class="container projectblock" id="otherprojects">
-            <br>
-            <h1>Other Projects</h1>
-            <br>
-            <div class="row">
-                <div class="col-sm-4">
-                    <a href="https://youtu.be/Ix_yWxMsfcE">
-                        <i class="fas fa-paint-brush fa-10x"></i>
-                        <h3>I'll Always Remember You (Animatic)</h3>
-                        <p>An animatic made by me for a friend who was moving to a different country.</p>
-                        <p>(Made with MediBang Paint and iMovie)</p>
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="https://www.youtube.com/watch?v=2YnF7txx2o0&list=PL8w8z3Nj-fHCJP2gR0Mi6VG5J-tNcNqMr">
-                        <i class="fas fa-guitar fa-10x"></i>
-                        <h3>Guitar Practice Playlist</h3>
-                        <p>A playlist of my progress in guitar!</p>
-                        <p>(Documented from 2021)</p>
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="#">
-                        <i class="fas fa-paint-brush fa-10x"></i>
-                        <h3>Speedpaint Playlist</h3>
-                        <p>A playlist of my speedpaints done over the years!</p>
-                    </a>
-                </div>
-            </div>
-            <br>
-        </div>
-        <br>
+        <!-- Contacts -->
+        <section class="center" id="contacts">
+            <h2 class="heading center"> Find me on the Internet! </h2>
+            <ul class="list">
+                <i class="fas fa-envelope contact" onclick="redirect('mailto:jimincodes@gmail.com')"></i>
+                <i class="fab fa-youtube contact" onclick="redirect('https://www.youtube.com/channel/UCBi29QC9gZBbRUpy_CV93Vw')"></i>
+                <i class="fab fa-github contact" onclick="redirect('https://www.github.com/jimthejelly')"></i>
+            </ul>
+        </section>
     </body>
 </html>
