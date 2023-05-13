@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Jimin Lee's Portfolio">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/465fdb50d8.js" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>About -- Sincerely, JM</title>
+</head>
+<body>
+    <!-- Welcome -->
+    <section class="container center" onclick="redirect('index.html')">
+      <img id="pic" src="images/user.png" alt="user_image">
+      <h2 class="heading">Sincerely, JM</h2>
+      <p>Student, Creator, Dreamer</p>
+    </section>
+
+    <hr>
+
+    <!-- Navigation Bar -->
+    <nav class="center container">
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+          <button class="nav-btn" id="nav-btn-current" onclick="redirect('about.html')">About</button>
+          <button class="nav-btn" onclick="redirect('projects.html')">Projects</button>
+          <button class="nav-btn" onclick="redirect('writing.html')">Writing</button>
+          <button class="nav-btn" onclick="redirect('#')">CV</button>
+        </div>
+        <div class="col-sm-2"></div>
+      </div>
+    </nav>
+
+    <hr><br>
+
+    <section class="container">
+      <div class="row">
+        <div class="col-sm-6 center">
+          <h4>Hello World!</h4><br><br><br><br><br><br>
+        </div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4">
+          <img id="me-pic" src="images/jimin.png" alt="jimin_image">
+        </div>
+      </div>
+    </section>
+
+    <br><hr><br>
+
+    <!-- Contacts -->
+    <section class="center" id="contacts">
+         <h2 class="heading center"> Find me on the Internet! </h2>
+         <ul class="list">
+             <i class="fa fa-linkedin contact" onclick="redirect('https://www.linkedin.com/in/jimthejelly/')"></i>
+             <i class="fab fa-youtube contact" onclick="redirect('https://www.youtube.com/channel/UCBi29QC9gZBbRUpy_CV93Vw')"></i>
+             <i class="fab fa-github contact" onclick="redirect('https://www.github.com/jimthejelly')"></i>
+             <i class="fab fa-instagram contact" onclick="redirect('https://www.instagram.com/jimthejelly/')"></i>
+        </ul>
+        <br><br>
+    </section>
+</body>
+</html>
