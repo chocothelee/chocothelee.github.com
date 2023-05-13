@@ -1,12 +1,14 @@
 :root {
   --light: #eeeeee;
   --dark: #212121;
+  --medium: #333333;
   --pink: #ff8484;
 }
 
 body {
   font-family: "American Typewriter";
   background-color: var(--dark);
+  padding: 50px 100px 0 100px;
 }
 
 button {
@@ -14,6 +16,7 @@ button {
   color: var(--light);
   border-color: var(--light);
   margin: 0 5px 5px 0;
+  font-size: initial;
 }
 
 a {
@@ -25,12 +28,20 @@ a:hover {
   color: var(--dark);
 }
 
-h3, h2, i {
+h4, h3, h2, i {
   color: var(--light);
 }
 
 p {
   color: var(--pink);
+}
+
+.nav-btn {
+  border: none;
+  width: 100px;
+  color: var(--light);
+  text-align: center;
+  display: inline-block;
 }
 
 .center {
@@ -50,8 +61,36 @@ p {
   font-size: 100px;
 }
 
+.box {
+  background-color: var(--medium);
+}
+
+.dash-png {
+  height: 100px;
+  width: 5px;
+}
+
+.writing-img {
+  height: 300px;
+  width: 300px;
+}
+
+.project-btns {
+  background-color: var(--medium);
+}
+
 #pic {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
+}
+
+#me-pic {
+  width: 200px;
+  height: 500px;
+}
+
+#nav-btn-current {
+  color: var(--pink);
+  font-size: large;
 }
