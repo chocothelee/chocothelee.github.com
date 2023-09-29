@@ -30,10 +30,9 @@
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8">
-                    <button class="nav-btn" onclick="redirect('about.html')">About</button>
-                    <button class="nav-btn" onclick="redirect('projects.html')">Projects</button>
-                    <button class="nav-btn" onclick="redirect('writing.html')">Writing</button>
-                    <button class="nav-btn" onclick="redirect('https://drive.google.com/file/d/1nCmtjqLanV1JUxP6Oa7E-HlQSHbibYZo/view')">CV</button>
+                    <button class="nav-btn" id="nav-btn-current" onclick="redirect('index.html')">home</button>
+                    <button class="nav-btn dropdown" onclick="redirect('projects.html')">projects</button>
+                    <button class="nav-btn" onclick="resumelink()">resume/cv</button>
                 </div>
                 <div class="col-sm-2"></div>
             </div>
@@ -41,8 +40,26 @@
 
         <hr><br>
 
+        <!-- Introduction -->
         <section class="container">
-            <br><br><br><br><br><br><br><br>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-4">
+                    <img id="me-pic" src="images/jm.jpg" alt="jimin_image">
+                </div>
+                <div class="col-sm-7">
+                    <h4>Hello!</h4>
+                    <h4>My name is Jimin, and I am currently an undergraduate majoring in Electrical Engineering at Rensselaer
+                        Polytechnic Institute (RPI). You can find some of my work-related projects under the Projects section
+                        of this website.</h4>
+                    <h4>Aside from my official work stuff, I also enjoy side hobbies such as writing (fiction & non-fiction)
+                        and art. You can also find some of my extra works under the Projects section as well.</h4>
+                    <h4>I'm first and foremost someone who enjoys learning and creating, and am fortunate enough to have been
+                        able to try so many different skills and fall in love with many of them. This website is meant to be a
+                        place to store all the works I did (and hopefully will continue to do).</h4>
+                    <h4>I hope you enjoy all that I have to offer :)</h4>
+                </div>
+            </div>
         </section>
 
         <br><hr><br>

@@ -44,6 +44,11 @@ p {
   display: inline-block;
 }
 
+.nav-btn:hover {
+  color: var(--pink);
+  font-size: large;
+}
+
 .center {
   text-align: center;
 }
@@ -70,13 +75,17 @@ p {
   width: 5px;
 }
 
-.writing-img {
+.project-img {
   height: 300px;
   width: 300px;
 }
 
 .project-btns {
   background-color: var(--medium);
+}
+
+.project-title:hover {
+  color: var(--pink);
 }
 
 #pic {

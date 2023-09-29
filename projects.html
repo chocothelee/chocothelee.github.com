@@ -12,7 +12,7 @@
         <script src="script.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css">
 
-        <title>Projects -- Jimin Lee</title>
+        <title>Projects - Jimin Lee</title>
     </head>
 
     <body>
@@ -30,10 +30,9 @@
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8">
-                    <button class="nav-btn" onclick="redirect('about.html')">About</button>
-                    <button class="nav-btn" id="nav-btn-current" onclick="redirect('projects.html')">Projects</button>
-                    <button class="nav-btn" onclick="redirect('writing.html')">Writing</button>
-                    <button class="nav-btn" onclick="redirect('https://drive.google.com/file/d/1nCmtjqLanV1JUxP6Oa7E-HlQSHbibYZo/view')">CV</button>
+                    <button class="nav-btn" onclick="redirect('index.html')">home</button>
+                    <button class="nav-btn dropdown" id="nav-btn-current" onclick="redirect('projects.html')">projects</button>
+                    <button class="nav-btn" onclick="resumelink()">resume/cv</button>
                 </div>
                 <div class="col-sm-2"></div>
             </div>
@@ -41,102 +40,32 @@
 
         <hr><br>
 
-        <section class="container">
+        <!-- project collections -->
+        <div class="container">
             <div class="row">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-8 center box">
-                    <h3>Through the Ages</h3>
-                    <p>2023</p>
-                    <i class="fas fa-meteor icon"></i><br><br>
-                    <button class="project-btns" onclick="redirect('https://github.com/jimthejelly/Through-the-Ages')">Documentation</button>
-                    <h4>An interactive web game meant to show the history of humans over time.</h4>
-                    <p>Created using HTML, CSS, JavaScript, Krita (Art)</p>
-                    <br>
+                <div class="col-sm-6 center" onclick="redirect('#')">
+                    <img src="images/eng.jpg" alt="eng-projects" class="project-img">
+                    <h3 class="project-title">Engineering Projects</h3>
                 </div>
-                <div class="col-sm-2"></div>
+                <div class="col-sm-6 center" onclick="redirect('coding-projects.html')">
+                    <img src="images/code.jpg" alt="coding-projects" class="project-img">
+                    <h3 class="project-title">Coding Projects</h3>
+                </div>
             </div>
-        </section>
 
-        <div class="center">
-            <img src="images/dash.png" class="dash-png" alt="">
+            <br>
+
+            <div class="row">
+                <div class="col-sm-6 center" onclick="redirect('https://medium.com/@jimthejelly')">
+                    <img src="images/ltftos.png" alt="writing-projects" class="project-img">
+                    <h3 class="project-title">Writing Projects</h3>
+                </div>
+                <div class="col-sm-6 center" onclick="redirect('other-projects.html')">
+                    <img src="images/tft.png" alt="other-projects" class="project-img">
+                    <h3 class="project-title">Other Projects</h3>
+                </div>
+            </div>
         </div>
-
-        <section class="container">
-            <div class="row">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-8 center box">
-                    <h3>Project Leaf</h3>
-                    <p>2022</p>
-                    <i class="fas fa-leaf icon"></i><br><br>
-                    <button class="project-btns" onclick="redirect('https://github.com/jimthejelly/project-leaf')">Documentation</button>
-                    <h4>A simple webpage to document employees and their leaves over the year.</h4>
-                    <p>Created using HTML, CSS, JavaScript, PHP</p>
-                    <br>
-                </div>
-                <div class="col-sm-2"></div>
-            </div>
-        </section>
-
-        <div class="center">
-            <img src="images/dash.png" class="dash-png" alt="">
-        </div>
-
-        <section class="container">
-            <div class="row">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-8 center box">
-                    <h3>Pyweek 30 Game Jam - Castaway</h3>
-                    <p>2020</p>
-                    <i class="fa fa-gamepad icon"></i><br><br>
-                    <button class="project-btns" onclick="redirect('https://github.com/0Nikola0/Casted-Away')">Documentation</button>
-                    <h4>A project made for the Pyweek 30 Game Jam, where I worked mostly on the story and organization of ideas.</h4>
-                    <p>Created using Python</p>
-                    <br>
-                </div>
-                <div class="col-sm-2"></div>
-            </div>
-        </section>
-
-        <div class="center">
-            <img src="images/dash.png" class="dash-png" alt="">
-        </div>
-
-        <section class="container">
-            <div class="row">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-8 center box">
-                    <h3>I'll Always Remember You (Animatic)</h3>
-                    <p>2019</p>
-                    <i class="fas fa-paint-brush icon"></i><br><br>
-                    <button class="project-btns" onclick="redirect('https://youtu.be/Ix_yWxMsfcE')">Youtube</button>
-                    <h4>An animatic I had made for a good friend who was leaving to another country.</h4>
-                    <p>Created using MediBang Paint, iMovie</p>
-                    <br>
-                </div>
-                <div class="col-sm-2"></div>
-            </div>
-        </section>
-
-        <div class="center">
-            <img src="images/dash.png" class="dash-png" alt="">
-        </div>
-
-        <section class="container">
-            <div class="row">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-8 center box">
-                    <h3>The Hooman System</h3>
-                    <p>2018</p>
-                    <i class="fas fa-atom icon"></i><br><br>
-                    <button class="project-btns" onclick="redirect('https://jimthejelly.itch.io/scienceproject')">Game page</button>
-                    <button class="project-btns" onclick="redirect('')">Video Walkthrough</button>
-                    <h4>A school science project about the life of an oxygen atom.</h4>
-                    <p>Created using RPG Maker MV, MediBang Paint (Art)</p>
-                    <br>
-                </div>
-                <div class="col-sm-2"></div>
-            </div>
-        </section>
 
         <br><hr><br>
 
