@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jimin Lee's Portfolio">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/465fdb50d8.js" crossorigin="anonymous"></script>
+
+  <script src="../script.js"></script>
+  <link rel="stylesheet" type="text/css" href="../style.css">
+
+  <title>Lab 1 - Jimin Lee</title>
+</head>
+<body>
+  <!-- SMALL Welcome + NAV -->
+  <section class="container">
+    <div class="row">
+      <section onclick="redirect('../index.html')">
+        <div class="col-sm-1">
+          <img id="small-pic" src="../images/user.png" alt="user_image">
+        </div>
+        <div class="col-sm-7">
+          <h4 class="heading">Jimin Lee</h4>
+          <p>Electrical Engineering Student @ RPI</p>
+        </div>
+      </section>
+      <div class="col-sm-4">
+        <br>
+        <button class="nav-btn" onclick="redirect('../index.html')">home</button>
+        <button class="nav-btn dropdown" onclick="redirect('../projects.html')">projects</button>
+        <button class="nav-btn" onclick="resumelink()">resume/cv</button>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- Project Introduction -->
+  <section class="container">
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-6">
+        <h3 class="pink">LAB 1</h3>
+        <h4>October 2023</h4>
+      </div>
+      <div class="col-sm-4">
+        <div class="right">
+          <h3 class="pink">Intro to ECSE</h3>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+  </section>
+
+  <br>
+
+  <!-- Carasoul -->
+  <section class="container center">
+    <img src="project.png" style="width: 400px; height: 400px">
+    <h4>This lab explored the ideas of voltage dividers.</h4>
+  </section>
+
+  <br>
+
+  <!-- Project Description + Analysis -->
+  <!-- Include:
+  - Summary of your Project with Data and Course
+  - Links to Project Documents
+  - Picture or Links to Simulation Files
+  - Links to Presentations (or Videos if you’ve made them for class)
+  - At least one good entry from your Metacognition Journal
+  - Bonus: A good failure that explores a concept you haven’t learned yet -->
+  <section class="container">
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10"></div>
+      <div class="col-sm-1"></div>
+    </div>
+  </section>
+
+
+  <!-- Back to Eng projects -->
+  <section class="container">
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-11">
+        <button onclick="redirect('../eng-projects.html')"><- back to all engineering projects</button>
+      </div>
+    </div>
+  </section>
+
+  <br><hr><br>
+
+  <!-- Contacts -->
+  <section class="center" id="contacts">
+    <h2 class="heading center"> Find me on the Internet! </h2>
+    <ul class="list">
+      <i class="fa fa-linkedin contact" onclick="redirect('https://www.linkedin.com/in/jimthejelly/')"></i>
+      <i class="fab fa-github contact" onclick="redirect('https://www.github.com/jimthejelly')"></i>
+      <i class="fab fa-youtube contact" onclick="redirect('https://www.youtube.com/channel/UCBi29QC9gZBbRUpy_CV93Vw')"></i>
+      <i class="fab fa-instagram contact" onclick="redirect('https://www.instagram.com/jimthejelly/')"></i>
+    </ul>
+    <br><br>
+  </section>
+</body>
+</html>

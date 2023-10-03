@@ -14,27 +14,26 @@
     <title>Coding Projects - Jimin Lee</title>
 </head>
 <body>
-    <!-- Welcome -->
-    <section class="container center" onclick="redirect('index.html')">
-        <img id="pic" src="images/user.png" alt="user_image">
-        <h2 class="heading">Jimin Lee</h2>
-        <p>Electrical Engineering Student @ RPI</p>
-    </section>
-
-    <hr>
-
-    <!-- Navigation Bar -->
-    <nav class="center container">
+    <!-- SMALL Welcome + NAV -->
+    <section class="container">
         <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-8">
-                <button class="nav-btn" id="nav-btn-current" onclick="redirect('index.html')">home</button>
-                <button class="nav-btn dropdown" onclick="redirect('projects.html')">projects</button>
+            <section onclick="redirect('index.html')">
+                <div class="col-sm-1">
+                    <img id="small-pic" src="images/user.png" alt="user_image">
+                </div>
+                <div class="col-sm-7">
+                    <h4 class="heading">Jimin Lee</h4>
+                    <p>Electrical Engineering Student @ RPI</p>
+                </div>
+            </section>
+            <div class="col-sm-4">
+                <br>
+                <button class="nav-btn" onclick="redirect('index.html')">home</button>
+                <button class="nav-btn" onclick="redirect('projects.html')">projects</button>
                 <button class="nav-btn" onclick="resumelink()">resume/cv</button>
             </div>
-            <div class="col-sm-2"></div>
         </div>
-    </nav>
+    </section>
 
     <hr><br>
 

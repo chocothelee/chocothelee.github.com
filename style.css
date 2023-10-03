@@ -32,7 +32,7 @@ h4, h3, h2, i {
   color: var(--light);
 }
 
-p {
+p, .pink {
   color: var(--pink);
 }
 
@@ -51,6 +51,10 @@ p {
 
 .center {
   text-align: center;
+}
+
+.right {
+  text-align: right;
 }
 
 .description {
@@ -76,6 +80,11 @@ p {
 }
 
 .project-img {
+  height: 200px;
+  width: 200px;
+}
+
+.project-img-xl {
   height: 300px;
   width: 300px;
 }
@@ -94,6 +103,12 @@ p {
   border-radius: 50%;
 }
 
+#small-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
 #me-pic {
   width: 239px;
   height: 331px;
@@ -102,4 +117,12 @@ p {
 #nav-btn-current {
   color: var(--pink);
   font-size: large;
+}
+
+.fa:hover {
+  color: var(--pink);
+}
+
+.fab:hover {
+  color: var(--pink);
 }
