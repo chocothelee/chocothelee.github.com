@@ -49,6 +49,17 @@ p, .pink {
   font-size: large;
 }
 
+.btn {
+  border: none;
+  color: var(--light);
+  display: inline-block;
+  font-size: medium;
+}
+
+.btn:hover {
+  color: var(--pink);
+}
+
 .center {
   text-align: center;
 }
