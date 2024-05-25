@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Jimin Lee's Portfolio">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://kit.fontawesome.com/465fdb50d8.js" crossorigin="anonymous"></script>
+
+        <script src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <title>Projects - Jimin Lee</title>
+    </head>
+
+    <body>
+        <!-- Welcome -->
+        <section class="container center" onclick="redirect('index.html')">
+            <img id="pic" src="images/user.png" alt="user_image">
+            <h2 class="heading">Jimin Lee</h2>
+            <p>Electrical Engineering and Applied Physics Undergraduate</p>
+        </section>
+
+        <hr>
+
+        <!-- Navigation Bar -->
+        <nav class="center container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <button class="nav-btn" onclick="redirect('index.html')">home</button>
+                    <button class="nav-btn dropdown" id="nav-btn-current" onclick="redirect('projects.html')">projects</button>
+                    <button class="nav-btn" onclick="resumelink()">resume/cv</button>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </nav>
+
+        <hr><br>
+
+        <!-- project collections -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 center" onclick="redirect('eng-projects.html')">
+                    <img src="images/eng.jpg" alt="eng-projects" class="project-img-xl">
+                    <h3 class="project-title">Engineering Projects</h3>
+                </div>
+                <div class="col-sm-6 center" onclick="redirect('coding-projects.html')">
+                    <img src="images/code.jpg" alt="coding-projects" class="project-img-xl">
+                    <h3 class="project-title">Coding Projects</h3>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-sm-6 center" onclick="redirect_pop('https://medium.com/@jimthejelly')">
+                    <img src="images/ltftos.png" alt="writing-projects" class="project-img-xl">
+                    <h3 class="project-title">Writing Projects</h3>
+                </div>
+                <div class="col-sm-6 center" onclick="redirect('other-projects.html')">
+                    <img src="images/tft.png" alt="other-projects" class="project-img-xl">
+                    <h3 class="project-title">Other Projects</h3>
+                </div>
+            </div>
+        </div>
+
+        <br><hr><br>
+
+        <!-- Contacts -->
+        <section class="center" id="contacts">
+            <h2 class="heading center"> Find me on the Internet! </h2>
+            <ul class="list">
+                <i class="fa fa-linkedin contact" onclick="redirect('https://www.linkedin.com/in/jimthejelly/')"></i>
+                <i class="fab fa-github contact" onclick="redirect('https://www.github.com/jimthejelly')"></i>
+                <i class="fab fa-youtube contact" onclick="redirect('https://www.youtube.com/channel/UCBi29QC9gZBbRUpy_CV93Vw')"></i>
+                <i class="fab fa-instagram contact" onclick="redirect('https://www.instagram.com/jimthejelly/')"></i>
+            </ul>
+            <br><br>
+        </section>
+    </body>
+</html>

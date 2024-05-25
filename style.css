@@ -32,6 +32,11 @@ h4, h3, h2, i {
   color: var(--light);
 }
 
+li {
+  color: var(--light);
+  font-size: medium;
+}
+
 p, .pink {
   color: var(--pink);
 }
@@ -52,6 +57,13 @@ p, .pink {
 .btn {
   border: none;
   color: var(--light);
+  display: inline-block;
+  font-size: medium;
+}
+
+.btn-back {
+  border: none;
+  color: var(--pink);
   display: inline-block;
   font-size: medium;
 }
@@ -104,6 +116,17 @@ p, .pink {
   background-color: var(--medium);
 }
 
+.project-link {
+  color: var(--light);
+  text-decoration: underline;
+  font-size: medium;
+}
+
+.project-link:hover {
+  color: var(--pink);
+  text-decoration: underline;
+}
+
 .project-title:hover {
   color: var(--pink);
 }
@@ -132,8 +155,19 @@ p, .pink {
 
 .fa:hover {
   color: var(--pink);
+  cursor: pointer;
+}
+
+.fas:hover {
+  color: var(--pink);
+  cursor: pointer;
 }
 
 .fab:hover {
   color: var(--pink);
+  cursor: pointer;
+}
+
+.project {
+  cursor: pointer;
 }
