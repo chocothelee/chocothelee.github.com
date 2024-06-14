@@ -171,3 +171,7 @@ p, .pink {
 .project {
   cursor: pointer;
 }
+
+.link {
+  cursor: pointer;
+}
